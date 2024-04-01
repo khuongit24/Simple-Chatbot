@@ -1,5 +1,13 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
+Vẫn đang tiếp tục cập nhật cơ sở trí thức `knowledge_base` đều đặn hằng ngày.
+
+**Lỗi hiện có:**
+Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**. `Đang Fix`
+Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
+Tên của chat bot **Bot** lặp lại hai lần khi phản hồi. `Đã fix`
+
+__HƯớNG DẪN SỬ DỤNG__
 
 **Bước 1:** Cài đặt **Flask**
 
@@ -17,7 +25,7 @@ Ví dụ: **cd D:\Simple-Chatbot**
 
 Trong trang **Terminal** gõ 
 
-```python app.py```  -> enter
+```python app.py```  -> **Enter**
 
 Sau khi khởi chạy, sẽ hiện thông tin như sau:
 
