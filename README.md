@@ -8,7 +8,7 @@ Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạ
 
 Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
 
-Tên của chat bot **Bot** lặp lại hai lần khi phản hồi. `Đã fix`
+Tên của chat bot **"Bot"** lặp lại hai lần khi phản hồi. `Đã fix`
 
 __HƯớNG DẪN SỬ DỤNG__
 
