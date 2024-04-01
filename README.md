@@ -3,6 +3,7 @@
 Tất nhiên nó vẫn sẽ được update và sửa lỗi liên tục(chắc vậy)
 
 **Bước 1:** Cài đặt Flask
+
 Đầu tiên, bạn cần cài đặt Flask. Bạn có thể làm điều này bằng cách sử dụng **pip**, trên **Terminal** hoặc **Command Prompt**:
 
 Gõ lệnh sau vào **Terminal** hoặc **Command Prompt** -> **Enter**:
@@ -20,6 +21,7 @@ Trong trang **Terminal** gõ
 ```python app.py```  -> enter
 
 Sau khi khởi chạy, sẽ hiện thông tin như sau:
+
  * Serving Flask app 'app'
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
@@ -28,6 +30,5 @@ Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 974-xxx-xxx
-
 
 **Bước 3:** Mở trình duyệt bất kỳ, nhập http://localhost:5000/ hoặc http://127.x.x và bắt đầu sử dụng
