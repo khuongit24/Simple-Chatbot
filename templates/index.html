@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Web Interface</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #conversation {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        #question {
+            width: calc(100% - 80px); 
+            margin-bottom: 10px;
+        }
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tiêu đề -->
+    <h1>Chatbot Web Interface</h1>
+    
+    <!-- Vùng hiển thị cuộc trò chuyện -->
+    <div id="conversation"></div>
+    
+    <!-- Khung nhập câu hỏi của người dùng -->
+    <textarea id="question" rows="4" cols="50"></textarea><br>
+    
+    <!-- Nút Hỏi -->
+    <button onclick="ask()">Hỏi</button>
+
+    <!-- Script JavaScript -->
+    <script>
+        var conversation = []; // Mảng chứa cuộc trò chuyện
+
+        // Cập nhật vùng hiển thị cuộc trò chuyện
+        function updateConversation() {
+            var conversationDiv = document.getElementById("conversation");
+            conversationDiv.innerHTML = ""; // Xóa nội dung của vùng hiển thị cuộc trò chuyện
+            // Duyệt qua mảng conversation và thêm từng câu hỏi và câu trả lời vào vùng hiển thị
+            conversation.forEach(function(item) {
+                conversationDiv.innerHTML += "<p><strong>Bạn:</strong> " + item.question + "</p>";
+                conversationDiv.innerHTML += "<p><strong>Bot:</strong> " + item.answer + "</p>";
+            });
+        }
+
+        // Gửi câu hỏi từ người dùng đến bot
+        function ask() {
+            var question = document.getElementById("question").value;
+            fetch("/ask", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ question: question })
+            })
+            .then(response => response.json())
+            .then(data => {
+                var answer = data.answer;
+                conversation.unshift({ question: question, answer: answer }); // Thêm câu hỏi và câu trả lời vào đầu mảng
+                updateConversation(); // Cập nhật cuộc trò chuyện
+                document.getElementById("question").value = ""; // Xóa nội dung của ô văn bản sau khi nhận câu trả lời
+            });
+        }
+
+        // Hỏi khi nhấn phím "Enter"
+        document.getElementById("question").addEventListener("keypress", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                ask();
+            }
+        });
+    </script>
+</body>
+</html>
