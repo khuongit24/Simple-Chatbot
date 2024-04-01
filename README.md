@@ -3,8 +3,11 @@
 Vẫn đang tiếp tục cập nhật cơ sở trí thức `knowledge_base` đều đặn hằng ngày.
 
 **Lỗi hiện có:**
+
 Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**. `Đang Fix`
+
 Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
+
 Tên của chat bot **Bot** lặp lại hai lần khi phản hồi. `Đã fix`
 
 __HƯớNG DẪN SỬ DỤNG__
