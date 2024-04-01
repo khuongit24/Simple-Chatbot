@@ -1,6 +1,7 @@
 {
     "Xin chào": "Chào bạn, tôi là chatbot, tôi có thể giúp gì được cho bạn không?",
     "Chào bạn": "Chào bạn, tôi có thể giúp gì cho bạn?",
+    "Hôm nay bạn cảm thấy thế nào?": "Xin lỗi, tôi chỉ là chatbot, không thể có cảm nhận như con người",
     "Bạn tên gì?": "Tôi là chatbot, tôi không có tên như con người.",
     "Bạn biết ngôn ngữ lập trình nào?": "Tôi có thể hiểu và giúp bạn với nhiều ngôn ngữ lập trình khác nhau như Python, Java, C++, JavaScript, và nhiều ngôn ngữ khác.",
     "Bạn có thể giúp tôi học lập trình không?": "Tất nhiên, tôi có thể giúp bạn hiểu các khái niệm lập trình, giải quyết các vấn đề lập trình và học các ngôn ngữ lập trình mới.",
