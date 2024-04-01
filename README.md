@@ -1,4 +1,5 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị
+Tất nhiên nó vẫn sẽ được update và sửa lỗi liên tục(chắc vậy)
 
 **Bước 1:** Cài đặt Flask
 Đầu tiên, bạn cần cài đặt Flask. Bạn có thể làm điều này bằng cách sử dụng **pip**, trên **Terminal** hoặc **Command Prompt**:
