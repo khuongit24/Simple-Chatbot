@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot Web Interface</title>
+    <title>Chatbot</title>
     <style>
         body {
             margin: 0;
@@ -29,8 +29,7 @@
     </style>
 </head>
 <body>
-    <!-- Tiêu đề -->
-    <h1>Chatbot Web Interface</h1>
+    <h1>Chatbot</h1>
 
     <div id="conversation"></div>
     
@@ -50,7 +49,6 @@
             });
         }
 
-        // Gửi câu hỏi từ người dùng đến bot
         function ask() {
             var question = document.getElementById("question").value;
             fetch("/ask", {
@@ -69,7 +67,6 @@
             });
         }
 
-        // Hỏi khi nhấn phím "Enter"
         document.getElementById("question").addEventListener("keypress", function(event) {
             if (event.keyCode === 13) {
                 event.preventDefault();
