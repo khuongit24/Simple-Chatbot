@@ -4,7 +4,7 @@ Vẫn đang tiếp tục cập nhật cơ sở trí thức `knowledge_base` đ�
 
 **Lỗi hiện có:**
 
-Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**. `Đang Fix`
+Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**). `Đang Fix`
 
 Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
 
