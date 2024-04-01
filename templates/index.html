@@ -31,25 +31,19 @@
 <body>
     <!-- Tiêu đề -->
     <h1>Chatbot Web Interface</h1>
-    
-    <!-- Vùng hiển thị cuộc trò chuyện -->
+
     <div id="conversation"></div>
     
-    <!-- Khung nhập câu hỏi của người dùng -->
     <textarea id="question" rows="4" cols="50"></textarea><br>
     
-    <!-- Nút Hỏi -->
     <button onclick="ask()">Hỏi</button>
 
-    <!-- Script JavaScript -->
     <script>
-        var conversation = []; // Mảng chứa cuộc trò chuyện
+        var conversation = []; 
 
-        // Cập nhật vùng hiển thị cuộc trò chuyện
         function updateConversation() {
             var conversationDiv = document.getElementById("conversation");
-            conversationDiv.innerHTML = ""; // Xóa nội dung của vùng hiển thị cuộc trò chuyện
-            // Duyệt qua mảng conversation và thêm từng câu hỏi và câu trả lời vào vùng hiển thị
+            conversationDiv.innerHTML = ""; 
             conversation.forEach(function(item) {
                 conversationDiv.innerHTML += "<p><strong>Bạn:</strong> " + item.question + "</p>";
                 conversationDiv.innerHTML += "<p><strong>Bot:</strong> " + item.answer + "</p>";
@@ -69,9 +63,9 @@
             .then(response => response.json())
             .then(data => {
                 var answer = data.answer;
-                conversation.unshift({ question: question, answer: answer }); // Thêm câu hỏi và câu trả lời vào đầu mảng
-                updateConversation(); // Cập nhật cuộc trò chuyện
-                document.getElementById("question").value = ""; // Xóa nội dung của ô văn bản sau khi nhận câu trả lời
+                conversation.unshift({ question: question, answer: answer }); 
+                updateConversation(); 
+                document.getElementById("question").value = ""; 
             });
         }
 
