@@ -1,4 +1,4 @@
-**Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị
+**Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
 
 **Bước 1:** Cài đặt **Flask**
