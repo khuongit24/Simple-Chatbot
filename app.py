@@ -20,7 +20,7 @@ def ask():
             answer = get_answer_for_question(best_match, knowledge_base)
             return jsonify({"answer": f"{answer}"})
         else:
-            return jsonify({"answer": "Tôi không biết câu trả lời. Bạn có thể dạy cho tôi không?"})
+            return jsonify({"answer": "Xin lỗi. Tôi không biết câu trả lời. Bạn có thể hỏi tôi câu khác được không?"})
 
 if __name__ == "__main__":
     app.run(debug=True)
