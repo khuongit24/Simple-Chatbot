@@ -1,9 +1,9 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị
 
 
-**Bước 1:** Cài đặt Flask
+**Bước 1:** Cài đặt **Flask**
 
-Đầu tiên, bạn cần cài đặt Flask. Bạn có thể làm điều này bằng cách sử dụng **pip**, trên **Terminal** hoặc **Command Prompt**:
+Đầu tiên, bạn cần cài đặt **Flask**. Bạn có thể làm điều này bằng cách sử dụng **pip**, trên **Terminal** hoặc **Command Prompt**:
 
 Gõ lệnh sau vào **Terminal** hoặc **Command Prompt** -> **Enter**:
 
