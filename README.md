@@ -1,6 +1,5 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
-Vẫn đang tiếp tục cập nhật cơ sở trí thức `knowledge_base` đều đặn hằng ngày.
 
 **Lỗi hiện có:**
 
