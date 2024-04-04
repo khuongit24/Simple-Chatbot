@@ -1,5 +1,9 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
+Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pythonanywhere.com/
+
+![image](https://github.com/khuongit24/Simple-Chatbot/assets/161446361/2fbe9429-b365-4b08-ac6d-c7598f04c654)
+
 
 **Lỗi hiện có:**
 
