@@ -1,6 +1,6 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
-**Bạn có thể tải file zip của dự án này về và Host trên bất kỳ nền tảng cloud nào hỗ trợ Flask**
+**Bạn có thể tải file zip của dự án này về và Host trên bất kỳ nền tảng cloud nào hỗ trợ tạo App Web sử dụng Flask**
 
 Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pythonanywhere.com/
 
