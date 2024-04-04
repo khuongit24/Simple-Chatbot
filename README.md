@@ -1,5 +1,7 @@
 **Lưu ý:** Đây chỉ là sản phẩm học tập, không có nhiều giá trị nên độ hoàn thiện sẽ không cao như các Chatbot AI.
 
+**Bạn có thể tải file zip của dự án này về và Host trên bất kỳ nền tảng cloud nào hỗ trợ Flask**
+
 Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pythonanywhere.com/
 
 ![image](https://github.com/khuongit24/Simple-Chatbot/assets/161446361/2fbe9429-b365-4b08-ac6d-c7598f04c654)
@@ -13,7 +15,8 @@ Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
 
 Tên của chat bot **"Bot"** lặp lại hai lần khi phản hồi. `Đã fix`
 
-__HƯớNG DẪN SỬ DỤNG__
+
+__HƯớNG DẪN HOST CHATBOT TRÊN MÁY TÍNH CÁ NHÂN__
 
 **Bước 1:** Cài đặt **Flask**
 
@@ -45,3 +48,7 @@ Press CTRL+C to quit
  * Debugger PIN: 974-xxx-xxx
 
 **Bước 3:** Mở trình duyệt bất kỳ, nhập http://localhost:5000/ hoặc http://127.x.x và bắt đầu sử dụng
+
+__KẾT QUẢ:__
+
+![image](https://github.com/khuongit24/Simple-Chatbot/assets/161446361/134313c9-0f79-445b-9758-9b9c6072f006)
