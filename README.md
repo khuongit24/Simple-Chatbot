@@ -16,7 +16,7 @@ Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
 Tên của chat bot **"Bot"** lặp lại hai lần khi phản hồi. `Đã fix`
 
 
-__HƯớNG DẪN HOST CHATBOT TRÊN MÁY TÍNH CÁ NHÂN__
+__CÁCH HOST CHATBOT TRÊN MÁY TÍNH CÁ NHÂN__
 
 **Bước 1:** Cài đặt **Flask**
 
