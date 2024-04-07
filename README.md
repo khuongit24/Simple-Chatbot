@@ -9,9 +9,9 @@ Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pytho
 
 **Lỗi hiện có:**
 
-Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**). `Đang Fix`
+Tính năng `Tự học hỏi câu trả lời` từ người dùng không hoạt động trên Web(Vẫn còn hoạt động trên **Terminal**).
 
-Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi. `Đang fix`
+Thỉnh thoảng chatbot sẽ hiểu sai nội dung câu hỏi.
 
 __CÁCH HOST CHATBOT TRÊN MÁY TÍNH CÁ NHÂN__
 
