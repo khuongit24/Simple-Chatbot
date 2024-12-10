@@ -2,7 +2,7 @@
 
 **Bạn có thể tải file zip của dự án này về và Host trên bất kỳ nền tảng cloud nào hỗ trợ tạo App Web sử dụng Flask**
 
-Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pythonanywhere.com/
+Link trang web đã Host Chatbot bằng PythonAnywhere: https://khuongit24.pythonanywhere.com/ (Closed)
 
 ![image](https://github.com/khuongit24/Simple-Chatbot/assets/161446361/2fbe9429-b365-4b08-ac6d-c7598f04c654)
 
